@@ -1,0 +1,15 @@
+{
+    // https://v3.nuxtjs.org/concepts/typescript
+    "extends": "./.nuxt/tsconfig.json",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "compilerOptions": {
+        // from ORM
+        // @see https://pinia-orm.codedredd.de/guide/getting-started/typescript#decorators-with-declare-recommanded
+        "experimentalDecorators": true,
+        // from ORM for Vite
+        // @see https://pinia-orm.codedredd.de/guide/getting-started/typescript#vite-integration
+        "useDefineForClassFields": false
+    }
+}
